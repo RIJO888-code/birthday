@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="alshu.css">
+</head>
+<body>
+
+    <!-- Landing Page -->
+    <div id="landingPage">
+        <div id="landingContent">
+            <h1>Happy Birthday Alshuuuuuuuuuu...</h1>
+            <p>"Happy birthday to my favorite person! I'm so grateful to have you in my life."</p>
+            <button id="musicButton">Play Music</button>
+            <p id="scrollText">Scroll Down ⬇️</p>
+        </div>
+    </div>
+
+    <section id="hello">
+    <div id="buttonSection">
+        <button id="clickMeButton">Lets Dance 🎉</button>
+        <div id="gifContainer"></div>
+    </div>
+    </section>
+    <!-- Slideshow Section -->
+<div id="slideshowContainer">
+    <div class="slide fade">
+        <img src="pic1.jpg" alt="Our Memory">
+    </div>
+    <div class="slide fade">
+        <img src="pic2.jpg" alt="Our Memory">
+    </div>
+    <div class="slide fade">
+        <img src="pic3.jpg" alt="Our Memory">
+    </div>
+    <div class="slide fade">
+        <img src="pic4.jpg" alt="Our Memory">
+    </div>
+    <div class="slide fade">
+        <img src="pic5.jpg" alt="Our Memory">
+    </div>
+    <div class="slide fade">
+        <img src="pic6.jpg" alt="Our Memory">
+    </div>
+    <div class="slide fade">
+        <img src="pic7.jpg" alt="Our Memory">
+    </div>
+    <div class="slide fade">
+        <img src="pic8.jpg" alt="Our Memory">
+    </div>
+    <div class="slide fade">
+        <img src="pic9.jpg" alt="Our Memory">
+    </div>
+    
+    <!-- Navigation Buttons -->
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+    <button class="next" onclick="changeSlide(1)">❯</button>
+</div>
+
+<!-- Secret Message Box (Always Visible After Slideshow) -->
+<div id="secretMessageBox">
+    <h2>💌 Your Special Birthday Wish 💌</h2>
+    <p>Before you leave, write a special birthday message! 🎂✨</p>
+    
+    <form action="https://formsubmit.co/rijoreji1900@gmail.com" method="POST">
+        <textarea name="message" id="wishMessage" placeholder="Type your wish here..." required></textarea>
+        <button type="submit">Send Wish 🎁</button>
+    </form>
+</div>
+
+<!-- Quiz Form (Hidden Initially) -->
+<div id="quizContainer" class="hidden">
+    <h2>💖 Can we play a Alshu Quiz? 💖</h2>
+    <form id="loveQuizForm">
+        <label>1️⃣ 22 aayallo ammachi, enthann parupadi? 🎁</label>
+        <input type="text" id="q1" required>
+
+        <label>2️⃣ Joli onnum aayille mwole? ❤️</label>
+        <input type="text" id="q2" required>
+
+        <label>3️⃣ Britania le HR ne valakkuoo? Ayinn olla kazhivv okke indooo? </label>
+        <input type="text" id="q3" required>
+
+        <label>4️⃣ Who Excatly is Babur? </label>
+        <input type="text" id="q4" required>
+
+        <label>5️⃣ If I could take you anywhere on your birthday, where would it be? ✈️</label>
+        <input type="text" id="q5" required>
+
+        <button type="submit">Submit Answers 💌</button>
+    </form>
+</div>
+<div id="finalQuote">
+    <p>"You are the kindest, most beautiful, and the most amazing soul I know.  
+    Every moment with you is a blessing, and I wish you endless happiness and love!  
+    Stay happy, stay blessed, and always keep shining! ✨" </p>
+
+    <h2>🎂 Happy Birthday Once Again! 🎉</h2>
+</div>
+
+
+
+    <audio id="birthdayMusic" src="music.mp3"></audio>
+    <script src="alshu.js"></script>
+
+</body>
+</html>
